@@ -1,0 +1,13 @@
+package com.kh.Test.main;
+
+public class ParseString {
+
+	public static void main(String[] args) {
+		
+		String str1 = "123";
+		int num1 = Integer.parseInt(str1);
+		System.out.println("문자열 정수로 변환 : " + num1);
+		
+	}
+	
+}

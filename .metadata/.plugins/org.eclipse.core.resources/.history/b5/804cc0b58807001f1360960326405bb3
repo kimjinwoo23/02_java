@@ -1,0 +1,18 @@
+package nes.test8;
+
+public class User {
+
+	
+	public static void main(String[] args) {
+		
+	
+	
+	User[] users = new User[3];
+	
+	users[0] = new user("김 씨" , "비번 1 " , "철수야 ", 32,'M',"010-3333-3333");
+	
+	
+	
+	
+}
+}

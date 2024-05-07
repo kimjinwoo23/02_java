@@ -1,0 +1,15 @@
+package com.kh.oop.pre;
+
+public class Cat extends Animal{
+
+	
+	
+	super(Animal(String name))
+		
+	
+	@Override
+	public void Cat() {
+		System.out.println("고양이가" + );
+	}
+	
+}

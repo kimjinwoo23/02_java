@@ -1,0 +1,25 @@
+package com.kh.datePre;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DateEx {
+
+	public static void main(String[] args) {
+		//Date로 현재날짜를 받아서 년 월 일 출력하기 
+		//Date는 최초 1회만 호출 
+		//SimpleDateFormat sdf1 =
+		Date d = new Date();
+		SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-dd");
+		String fsdf1 = sdf1.format(d);
+		System.out.println(fsdf1);
+		
+		//시 분 초 
+		SimpleDateFormat sdf2 = new SimpleDateFormat("HH:mm:ss");
+		String sdf22 = sdf2.format(d);
+		System.out.println(sdf22);
+		
+		
+	}
+	
+}

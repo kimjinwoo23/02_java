@@ -1,0 +1,14 @@
+package com.kh.Test.main.oop;
+
+public interface AnimalEat {
+	@Override
+	public void eat() {
+		
+	}
+	
+	
+	
+	
+	
+	
+}
